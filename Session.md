@@ -1,15 +1,19 @@
 # Csa témák
 ## Neurális hálózatok
-### Rekurzív Neurális Hálózatok 1
+### Hálók 2.0
+Softmax aktivációs függvény és kereszt-entrópia veszteségfüggvény (Cross Entropy). Neurális regresszió.
+### Regularizáció
+Túlillesztés (overfitting). L1 és L2 normák. Kiejtéses regularizáció (DropOut).
+### Rekurzív Neurális Hálózatok 1.
 Rekurzió. Hibavisszaterjesztés "az időn át" (Backpropagation Through Time, BPTT).
-### Rekurzív Neurális Hálózatok 2
+### Rekurzív Neurális Hálózatok 2.
 Egyszerű RNN matematikája és implementációja. Gradiens "robbanás" (Exploding gradients). Brainforge könyvtár.
-### Rekurzív Neurális Hálózatok 3
+### Rekurzív Neurális Hálózatok 3.
 Hosszú-rövid távó memória (LSTM) architektúra. Brainforge könyvtár.
 ### Konvolúciós Neurális Hálózatok
 Konvolúció és kereszt-korreláció. Többdimenziós tenzorok. CNN matematikája és implementációja. Keras OO API.
 ### Trükkös architektúrák
-Sztráda-architektúra (Highway Network). Kiejtéses regularizáció (DropOut). Autoencoder. Keras funkcionális API.
+Sztráda-architektúra (Highway Network. Autoencoder. Keras funkcionális API.
 
 ## Más gépi tanulás
 ### Mátrix-dekompozíciók
