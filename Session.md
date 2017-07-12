@@ -26,7 +26,7 @@ Lineáris regresszió és duális problémája. Ridge regresszió és duális pr
 Támasztóvektor-gép (Support Vector Machine, SVM). "Hinge" veszteségfüggvény. Scikit-Learn könyvtár.
 ### Evolúció - Genetikus algoritmus
 Populációs és egyed. Evolúciós operátorok: szelekció, szaporodás, mutáció, crossing-over.
-### Neuroevolóúció
+### Neuroevolúció
 Hiperparaméterek evolúciója. Paraméterek (súlyok) evolúciója. Architektúra evolúciója, NEAT (Neuroevolution of Augmenting Topologies), HyperNEAT. MarI/O.
 
 ## Megerősítéses tanulás
