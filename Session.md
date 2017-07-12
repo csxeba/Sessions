@@ -1,12 +1,12 @@
 # Csa témák
 ## Neurális hálózatok
-### Rekurzív Neurális Hálózatok 1. -- 30 perc
+### Rekurzív Neurális Hálózatok 1
 Rekurzió. Hibavisszaterjesztés "az időn át" (Backpropagation Through Time, BPTT).
-### Rekurzív Neurális Hálózatok 2. -- 30 perc
+### Rekurzív Neurális Hálózatok 2
 Egyszerű RNN matematikája és implementációja. Gradiens "robbanás" (Exploding gradients). Brainforge könyvtár.
-### Rekurzív Neurális Hálózatok 3. -- 30 perc
+### Rekurzív Neurális Hálózatok 3
 Hosszú-rövid távó memória (LSTM) architektúra. Brainforge könyvtár.
-### Konvolúciós Neurális Hálózatok -- 30 perc
+### Konvolúciós Neurális Hálózatok
 Konvolúció és kereszt-korreláció. Többdimenziós tenzorok. CNN matematikája és implementációja. Keras OO API.
 ### Trükkös architektúrák
 Sztráda-architektúra (Highway Network). Kiejtéses regularizáció (DropOut). Autoencoder. Keras funkcionális API.
