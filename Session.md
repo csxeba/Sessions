@@ -17,8 +17,7 @@ Sztráda-architektúra (Highway Network. Autoencoder. Keras funkcionális API.
 
 ## Más gépi tanulás
 ### Mátrix-dekompozíciók
-Egyenértékek, egyenvektorok, egyendekompozíció. Szinguláris érték dekompozíció (SVD). Főkomponens-analízis (PCA).
-NumPy - Linalg modul
+Egyenértékek, egyenvektorok, egyendekompozíció. Szinguláris érték dekompozíció (SVD). Főkomponens-analízis (PCA). NumPy - Linalg modul
 ### Kernel módszer 1.
 Dualitás. Langrange-szorzó. Kernel függvények, kernel trükk.
 ### Kernel módszer 2.
@@ -27,13 +26,12 @@ Lineáris regresszió és duális problémája. Ridge regresszió és duális pr
 Támasztóvektor-gép (Support Vector Machine, SVM). "Hinge" veszteségfüggvény. Scikit-Learn könyvtár.
 ### Evolúció - Genetikus algoritmus
 Populációs és egyed. Evolúciós operátorok: szelekció, szaporodás, mutáció, crossing-over.
+### Neuroevolóúció
+Hiperparaméterek evolúciója. Paraméterek (súlyok) evolúciója. Architektúra evolúciója, NEAT (Neuroevolution of Augmenting Topologies), HyperNEAT. MarI/O.
 
 ## Megerősítéses tanulás
 ### Alapok
-Markov döntési folyamat, Markov-lánc (Markov decision process, Markov-chain).
-SARSA modell. Idődifferencia-modell (Temporal difference, TD).
-"Credit assignement", jutalom leszámítása (discount rewards).
-Felfedezés-hasznosítás (Exploration-Exploitation) dilemma. OpenAI Gym keretrendszer.
+Markov döntési folyamat, Markov-lánc (Markov decision process, Markov-chain). SARSA modell. Idődifferencia-modell (Temporal difference, TD). "Credit assignement", jutalom leszámítása (discount rewards). Felfedezés-hasznosítás (Exploration-Exploitation) dilemma. OpenAI Gym keretrendszer.
 ### Q-tanulás
 Q-függvény, labirintus-probléma megoldása mátrix módszerrel. Bellman-függvény
 ### PG - Policy Gradients
