@@ -45,5 +45,6 @@ Cselekvő-kritikus architektúra, a fenti koncepciók egyesítése. TORCS autóv
 ## Kotlin
 ### Introduction to Kotlin
 A nyelv alapjainak bemutatása. A szintaxis és nyújtott eszközök megismerése.
+## Clean code
 ### libreplicator
 A könyvtár bemutatása. A design-t befolyásoló döntések, levont tapasztalatok. (SOLID, modularization, dependency injection, ... TBD)
