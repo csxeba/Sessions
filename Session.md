@@ -40,3 +40,10 @@ Q-függvény, labirintus-probléma megoldása mátrix módszerrel. Bellman-függ
 Q-függvény becslése neurális hálózattal. Bellman-függvény, mint veszteségfüggvény. Target hálózat. CartPole környezet.
 ### DDPG - Deep Deterministic Policy Gradients
 Cselekvő-kritikus architektúra, a fenti koncepciók egyesítése. TORCS autóverseny környezet.
+
+# Misi témák
+## Kotlin
+### Introduction to Kotlin
+A nyelv alapjainak bemutatása. A szintaxis és nyújtott eszközök megismerése.
+### libreplicator
+A könyvtár bemutatása. A design-t befolyásoló döntések, levont tapasztalatok. (SOLID, modularization, dependency injection, ... TBD)
