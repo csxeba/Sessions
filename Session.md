@@ -48,3 +48,23 @@ A nyelv alapjainak bemutatása. A szintaxis és nyújtott eszközök megismerés
 ## Clean code
 ### libreplicator
 A könyvtár bemutatása. A design-t befolyásoló döntések, levont tapasztalatok. (SOLID, modularization, dependency injection, ... TBD)
+
+# Márk témák
+## C#
+### C# alapok + .NET Core
+C# alapok (szintaxis, System libraryk + nuget, containerek, többszálas kezelés, IO, stb...) + .NET Core alapok (a projekt felépítése, hogyan lehet és milyen platformokra, .NET Standard)
+### C# haladóknak
+Stack, heap, garbage collector, reflection, generic osztályok, marshalling, pinvoke, stb...
+### C# Java-s szemmel
+Mi az amiben más a C#, mint a Java? Bár managelt mindkét nyelv és alapjaiban hasonló módszerrel műküdnek, sok kis és nagy különbség van közöttük.
+### C# socketek
+Blocking, non-blocking, async, csomagkezelés, csomagküldés, protokolok, packetek összeállítása, bitmágia az adat csökkentésére, stb...
+### C# mint szerver
+Szerver felépítése C#-ban. Előnyök, hátrányok, C# vs C++, stb...
+## Reverse Engineering
+### RE alapok (lehet hogy belefér 1 alkalomba a gyakorlati RE-vel együtt)
+Definíció, típusok, programok; függvények, struktúrák, virtuális táblák, import és export táblák.
+### Gyakorlati RE
+Ismeretlen fájltípusok struktúrájának feltörése, titkosítás feltörése, socket kommunikáció struktúrájának megismerése, stb...
+### Assembly alapok
+Opkódok, stack, heap, regiszterek, NASM, RE asm olvasással, stb...
