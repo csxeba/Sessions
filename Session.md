@@ -1,5 +1,7 @@
 # Csa témák
 ## Neurális hálózatok
+### Hálók 1.0 revisited
+Elemi neuron, lineáris kombináció, aktivációs függvények. Veszteségfüggvények, gradiens ereszkedés (Gradient Descent). Deriválás mátrixokkal, hibavisszaterjesztés (Backpropagation of errors). Anyag itt: https://github.com/csxeba/ANN_IQ
 ### Hálók 2.0
 Softmax aktivációs függvény és kereszt-entrópia veszteségfüggvény (Cross Entropy). Neurális regresszió.
 ### Regularizáció
