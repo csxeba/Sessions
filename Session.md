@@ -1,47 +1,72 @@
 # Csa témák
 ## Neurális hálózatok
-### Hálók 1.0 revisited
-Elemi neuron, lineáris kombináció, aktivációs függvények. Veszteségfüggvények, gradiens ereszkedés (Gradient Descent). Deriválás mátrixokkal, hibavisszaterjesztés (Backpropagation of errors). Anyag itt: https://github.com/csxeba/ANN_IQ
-### Hálók 2.0
-Softmax aktivációs függvény és kereszt-entrópia veszteségfüggvény (Cross Entropy). Neurális regresszió.
+### Hálók 1 revisited
+Elemi neuron, aktivációs függvények. Veszteségfüggvények, gradiens ereszkedés (Gradient Descent). Parciális deriválás mátrixokkal, hibavisszaterjesztés (Backpropagation). Kézzel írott számjegyek (MNIST adatsor) felismerése teljesen kapcsolt hálóval. Anyag itt: https://github.com/csxeba/ANN_IQ
+### Hálók 2
+**Dependencia: Hálók 1**
+Osztályozás, regresszió, generatív modellek. Softmax aktivációs függvény és kereszt-entrópia veszteségfüggvény (Cross Entropy). Teljesítmény javítása az MNIST adatsoron.
 ### Regularizáció
+**Dependecia: Hálók 2**
 Túlillesztés (overfitting). L1 és L2 normák. Kiejtéses regularizáció (DropOut).
-### Rekurzív Neurális Hálózatok 1.
-Rekurzió. Hibavisszaterjesztés "az időn át" (Backpropagation Through Time, BPTT).
-### Rekurzív Neurális Hálózatok 2.
-Egyszerű RNN matematikája és implementációja. Gradiens "robbanás" (Exploding gradients). Brainforge könyvtár.
-### Rekurzív Neurális Hálózatok 3.
-Hosszú-rövid távó memória (LSTM) architektúra. Brainforge könyvtár.
-### Konvolúciós Neurális Hálózatok
-Konvolúció és kereszt-korreláció. Többdimenziós tenzorok. CNN matematikája és implementációja. Keras OO API.
+### Rekurrens Neurális Háló
+#### RNN 1 (Recurrent Neural Network)
+**Dependencia: Hálók 2**
+Rekurzió, rekurrencia, visszacsatolás. Hibavisszaterjesztés "az időn át" (Backpropagation Through Time, BPTT). Szekvenciális adatok feldolgozása. Beágyazás (embedding).
+#### RNN 2
+**Dependencia: RNN 1**
+Egyszerű RNN matematikája és implementációja. Gradiens "robbanás" (Exploding gradients). Brainforge könyvtár. *Petőfi Sándor bot*.
+#### RNN 3
+**Dependencia: RNN 2**
+Hosszú-rövid távó memória (LSTM) architektúra. Brainforge könyvtár. *Python coder bot*.
+#### NTM (Neural Turing Machine) és DNC (Differential Neural Computer)
+**Dependencia: RNN 3**
+Neurális Turing-gép. Külső elérésű memóriaegység. Differenciálható R/W memóriaműveletek. Differenciálható figyelem-mechanizmusok (attention). *Python script futtatása neurális turing gépeken*.
+### Konvolúciós Neurális Háló (CNN)
+**Dependencia: Hálók 2**
+Konvolúció és kereszt-korreláció. Többdimenziós tenzorok. CNN matematikája és implementációja. Keras OO API. *MNIST CNN feldolgozása*.
 ### Trükkös architektúrák
-Sztráda-architektúra (Highway Network. Autoencoder. Keras funkcionális API.
+**Dependencia: Hálók 2**
+Sztráda-architektúra (Highway Network). Autoencoder. Keras funkcionális API.
+### Deep Learning könyvtárak és automata differenciáló motorok Pythonhoz
+**Dependencia: Hálók 2**
+Mert deriválgasson akinek két anyja van. Tensorflow (by Google) vagy Theano (by University of Montréal).
 
 ## Más gépi tanulás
 ### Mátrix-dekompozíciók
-Egyenértékek, egyenvektorok, egyendekompozíció. Szinguláris érték dekompozíció (SVD). Főkomponens-analízis (PCA). NumPy - Linalg modul
-### Kernel módszer 1.
+Egyenértékek, egyenvektorok, egyendekompozíció. Szinguláris érték dekompozíció (SVD). Főkomponens-analízis (PCA). NumPy - Linalg modul.
+### Kernel módszer 1
+**Dependencia: Mátrix-dekompozíciók**
 Dualitás. Langrange-szorzó. Kernel függvények, kernel trükk.
-### Kernel módszer 2.
+### Kernel módszer 2
+**Dependencia: Kernel módszer 1**
 Lineáris regresszió és duális problémája. Ridge regresszió és duális problémája.
-### Kernel módszer 3.
+### Kernel módszer 3
+**Dependencia: Kernel módszer 2**
 Támasztóvektor-gép (Support Vector Machine, SVM). "Hinge" veszteségfüggvény. Scikit-Learn könyvtár.
 ### Evolúció - Genetikus algoritmus
 Populációs és egyed. Evolúciós operátorok: szelekció, szaporodás, mutáció, crossing-over.
-### Neuroevolúció
-Hiperparaméterek evolúciója. Paraméterek (súlyok) evolúciója. Architektúra evolúciója, NEAT (Neuroevolution of Augmenting Topologies), HyperNEAT. MarI/O.
+### Neuroevolúció 1 - töltött zsemle szint
+**Dependencia: Evolúció - Genetikus algoritmus**
+Hiperparaméterek evolúciója. Paraméterek (súlyok) evolúciója.
+### Neuroevolúció 2 - marha ribeye steak szint
+**Dependencia: Evolúcuó - Genetikus algoritmus**
+Architektúra evolúciója, NEAT (Neuroevolution of Augmenting Topologies), HyperNEAT + MarI/O (NES Super Mario bot).
 
-## Megerősítéses tanulás
-### Alapok
+## Reinforcement Learning - Megerősítéses tanulás
+### RL alapok
 Markov döntési folyamat, Markov-lánc (Markov decision process, Markov-chain). SARSA modell. Idődifferencia-modell (Temporal difference, TD). "Credit assignement", jutalom leszámítása (discount rewards). Felfedezés-hasznosítás (Exploration-Exploitation) dilemma. OpenAI Gym keretrendszer.
 ### Q-tanulás
+**Dependencia: RL alapok**
 Q-függvény, labirintus-probléma megoldása mátrix módszerrel. Bellman-függvény
 ### PG - Policy Gradients
-"Pong from pixels" implementáció. Tapasztalat-visszajátszás. Atari Pong környezet.
+**Dependencia: RL alapok**
+Tapasztalat-visszajátszás. Atari Pong környezet, *Pong bot*.
 ### DQN - Deep Q Network
-Q-függvény becslése neurális hálózattal. Bellman-függvény, mint veszteségfüggvény. Target hálózat. CartPole környezet.
+**Dependencia: Q-tanulás**
+Q-függvény becslése neurális hálózattal. Bellman-függvény, mint veszteségfüggvény. Double Deep Q Network. CartPole környezet, *CartPole bot*.
 ### DDPG - Deep Deterministic Policy Gradients
-Cselekvő-kritikus architektúra, a fenti koncepciók egyesítése. TORCS autóverseny környezet.
+**Dependecia: DQN, PG**
+Cselekvő-kritikus architektúra, DQN és PG koncepciók egyesítése. TORCS autóverseny környezet, *TORCS bot*
 
 # Misi témák
 ## Kotlin
