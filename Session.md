@@ -86,6 +86,12 @@ Q-függvény becslése neurális hálózattal. Bellman-függvény, mint vesztes�
 
 Cselekvő-kritikus architektúra, DQN és PG koncepciók egyesítése. TORCS autóverseny környezet, *TORCS bot*
 
+## Python
+### Python és adatbányászati alapok
+Adattípusok. Ciklusok. Függvények. Osztályok, objektumok. NumPy ndarray. NumPy linalg. Scipy. Pandas dataframe.
+### Python advanced
+Generátorok (yield), generátor korutinok (yield expression, yield from), valódi korutinok (async/await). List/dict/set comprehension. Egysoros if/else. Metaclass. Operátor overloading (magic metódusok). Dekorátorok.
+
 # Misi témák
 ## Kotlin
 ### Introduction to Kotlin
