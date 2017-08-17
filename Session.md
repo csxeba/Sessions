@@ -117,3 +117,13 @@ Opkódok, stack, heap, regiszterek, NASM, RE asm olvasással, stb...
 ### Yii2 Framework
 Composer + csomagok, MVC, ActiveRecord, formkezelés, kontrollerek, stb...
 Miért jó a PHP? Miért nem jó a PHP?
+
+# Hege témák
+
+## Coded UI
+C# teszt automatizálás
+
+## Modern C++
+11-14-17 szabványok, mi hogyan változott.
+
+## C++ állásinterjú tesztek, kérdések
