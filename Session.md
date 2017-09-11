@@ -92,6 +92,16 @@ Adattípusok. Ciklusok. Függvények. Osztályok, objektumok. NumPy ndarray. Num
 ### Python advanced
 Generátorok (yield), generátor korutinok (yield expression, yield from), valódi korutinok (async/await). List/dict/set comprehension. Egysoros if/else. Metaclass. Operátor overloading (magic metódusok). Dekorátorok.
 
+## Tudomány
+### Tudományos módszertan
+Megfigyelés, hipotézisfelállítás, kísérletezés, kiértékelés. Szakirodalom felkutatása és hozzáférés megszerzése.
+
+### Low level kémia
+Atomi és molekuláris szint.
+
+### Biokémia dietetikus szemmel
+Fő vegyületcsoportok. Miből mennyit és miért. Mivel mi lesz. Szénhidrátok, zsírok, fehérjék, nukleinsavak.
+
 # Misi témák
 ## Kotlin
 ### Introduction to Kotlin
