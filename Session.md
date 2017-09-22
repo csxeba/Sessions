@@ -106,11 +106,12 @@ Fő vegyületcsoportok. Miből mennyit és miért. Mivel mi lesz. Szénhidrátok
 ## Kotlin
 ### Introduction to Kotlin
 A nyelv alapjainak bemutatása. A szintaxis és nyújtott eszközök megismerése.
-## Clean code - part 1
+## Clean code
+### Part 1
 naming, functions, comments, formatting, objects vs data structures
-## Clean code - part 2
+### Part 2
 classes, solid principles, architecture, high level design
-## Clean code - TDD
+### TDD
 testing, test driven development
 
 # Márk témák
