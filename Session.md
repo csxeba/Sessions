@@ -4,7 +4,6 @@
 Elemi neuron, aktivációs függvények. Veszteségfüggvények, gradiens ereszkedés (Gradient Descent). Parciális deriválás mátrixokkal, hibavisszaterjesztés (Backpropagation). Kézzel írott számjegyek (MNIST adatsor) felismerése teljesen kapcsolt hálóval. Anyag itt: https://github.com/csxeba/ANN_IQ
 
 ### Modern architektúrák alkalmazása
-**Dependencia: Háló alapok**
 Petőfi-generátor átírása C -> LLVM IR "compiler"-ré
 
 ### Neuroevolúció
