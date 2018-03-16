@@ -1,49 +1,28 @@
 # Csa témák
 ## Neurális hálózatok
-### Háló alapok
+### ~~Háló alapok~~
 Elemi neuron, aktivációs függvények. Veszteségfüggvények, gradiens ereszkedés (Gradient Descent). Parciális deriválás mátrixokkal, hibavisszaterjesztés (Backpropagation). Kézzel írott számjegyek (MNIST adatsor) felismerése teljesen kapcsolt hálóval. Anyag itt: https://github.com/csxeba/ANN_IQ
 
-### Rekurrens Neurális Háló (RNN)
+### Modern architektúrák alkalmazása
 **Dependencia: Háló alapok**
+Petőfi-generátor átírása C -> LLVM IR "compiler"-ré
 
-Rekurzió, rekurrencia, visszacsatolás. Hibavisszaterjesztés "az időn át" (Backpropagation Through Time, BPTT). Szekvenciális adatok feldolgozása. Beágyazás (embedding).
+### Neuroevolúció
+Egyszerű genetikus algoritmus. Súlyok evolválása. Stratégiák architektúra evolválására.
 
-### Konvolúciós Neurális Háló (CNN)
-**Dependencia: Háló alapok**
-
-Konvolúció és kereszt-korreláció. Többdimenziós tenzorok. CNN matematikája és implementációja. Keras OO API. *MNIST CNN feldolgozása*.
-
-### Deep Learning könyvtárak és automata differenciáló motorok Pythonhoz
-**Dependencia: Háló alapok**
-
-Mert deriválgasson akinek két anyja van. Tensorflow (by Google) vagy Theano (by University of Montréal).
-
-## Más gépi tanulás
-### Mátrix-dekompozíciók, kernel módszer
-Egyenértékek, egyenvektorok, egyendekompozíció. Szinguláris érték dekompozíció (SVD). Főkomponens-analízis (PCA). NumPy - Linalg modul.
-
-### Evolúció - Genetikus algoritmus, neuroevolúció
-Populációs és egyed. Evolúciós operátorok: szelekció, szaporodás, mutáció, crossing-over.
-
-## Reinforcement Learning - Megerősítéses tanulás
-### RL alapok
-Markov döntési folyamat, Markov-lánc (Markov decision process, Markov-chain). SARSA modell. Idődifferencia-modell (Temporal difference, TD). "Credit assignement", jutalom leszámítása (discount rewards). Felfedezés-hasznosítás (Exploration-Exploitation) dilemma. OpenAI Gym keretrendszer.
+### Deep Reinforcement Learning (megerősítéses tanulás) alapok
+Mi ez az egész? Neurális könyvtárak és játékok interfészelése. Pár egyszerű játék feltanítása.
 
 ## Python
-### Python és adatbányászati alapok
-Adattípusok. Ciklusok. Függvények. Osztályok, objektumok. NumPy ndarray. NumPy linalg. Scipy. Pandas dataframe.
-### Python advanced
-Generátorok (yield), generátor korutinok (yield expression, yield from), valódi korutinok (async/await). List/dict/set comprehension. Egysoros if/else. Metaclass. Operátor overloading (magic metódusok). Dekorátorok.
+### Miért Python?
+Függvények, osztályok. NumPy N-dimenziós tömb. Ha marad idő: AsyncIO, natív korutinok.
 
 ## Tudomány
-### Tudományos módszertan
+### ~~Tudományos módszertan~~
 Megfigyelés, hipotézisfelállítás, kísérletezés, kiértékelés. Szakirodalom felkutatása és hozzáférés megszerzése.
 
-### Low level kémia
-Atomi és molekuláris szint.
-
-### Biokémia dietetikus szemmel
-Fő vegyületcsoportok. Miből mennyit és miért együnk. Mivel mi lesz a szervezetben. Szénhidrátok, zsírok, fehérjék, nukleinsavak.
+### DNS
+A DNS szerkezete, információtárolás a DNS-ben. Online elérhető DNS szekvenciák és teljes genom szekvenciák (pl. emberi referencia genom)
 
 # Misi témák
 ## Kotlin
