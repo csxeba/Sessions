@@ -56,6 +56,11 @@ naming, functions, comments, formatting, objects vs data structures
 classes, solid principles, architecture, high level design
 ### TDD
 testing, test driven development
+## Continuous Integration
+### Docker, CircleCI
+Egybevont előadás két kapcsolódó témáról végfelhasználói szempontból.
+* Mi az és mire jók a Docker container-ek? Hogyan kezdek neki?
+* Mi az a Continuous Integration? Mit nyújt ebből a szempontból CircleCI?
 
 # Márk témák
 ## C#
