@@ -20,7 +20,7 @@ Függvények, osztályok. NumPy N-dimenziós tömb. Ha marad idő: AsyncIO, nat�
 ### ~~Tudományos módszertan~~
 Megfigyelés, hipotézisfelállítás, kísérletezés, kiértékelés. Szakirodalom felkutatása és hozzáférés megszerzése.
 
-### DNS
+### ~~DNS~~
 A DNS szerkezete, információtárolás a DNS-ben. Online elérhető DNS szekvenciák és teljes genom szekvenciák (pl. emberi referencia genom)
 
 # Misi témák
