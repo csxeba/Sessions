@@ -1,7 +1,5 @@
 # Csa témák
 ## Neurális hálózatok
-### ~~Háló alapok~~
-Elemi neuron, aktivációs függvények. Veszteségfüggvények, gradiens ereszkedés (Gradient Descent). Parciális deriválás mátrixokkal, hibavisszaterjesztés (Backpropagation). Kézzel írott számjegyek (MNIST adatsor) felismerése teljesen kapcsolt hálóval. Anyag itt: https://github.com/csxeba/ANN_IQ
 
 ### Modern architektúrák alkalmazása
 Petőfi-generátor átírása C -> LLVM IR "compiler"-ré
@@ -15,13 +13,6 @@ Mi ez az egész? Neurális könyvtárak és játékok interfészelése. Pár egy
 ## Python
 ### Miért Python?
 Függvények, osztályok. NumPy N-dimenziós tömb. Ha marad idő: AsyncIO, natív korutinok.
-
-## Tudomány
-### ~~Tudományos módszertan~~
-Megfigyelés, hipotézisfelállítás, kísérletezés, kiértékelés. Szakirodalom felkutatása és hozzáférés megszerzése.
-
-### ~~DNS~~
-A DNS szerkezete, információtárolás a DNS-ben. Online elérhető DNS szekvenciák és teljes genom szekvenciák (pl. emberi referencia genom)
 
 # Misi témák
 ## Kotlin
