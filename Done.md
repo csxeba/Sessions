@@ -4,6 +4,7 @@ TDD alapok, TDD kata (stack implementálás)
 
 ## Introduction to Kotlin
 A nyelv alapjainak bemutatása. A szintaxis és nyújtott eszközök megismerése.
+
 Link: https://docs.google.com/presentation/d/1yIfZrFbM64dvrVNacJJwc4abEe0ksitO-47En_qxsic/edit?usp=sharing
 
 ## Clean Code
@@ -13,6 +14,7 @@ Link: https://docs.google.com/presentation/d/1yIfZrFbM64dvrVNacJJwc4abEe0ksitO-4
 Egybevont előadás két kapcsolódó témáról végfelhasználói szempontból.
 * Mi az és mire jók a Docker container-ek? Hogyan kezdek neki?
 * Mi az a Continuous Integration? Mit nyújt ebből a szempontból CircleCI?
+
 Link: https://docs.google.com/presentation/d/1r3oMD91K4vG5zYGFrktOrRCR-yiNti_64_JB2MEJAbc/edit?usp=sharing
 
 # Márk:
