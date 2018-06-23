@@ -2,6 +2,16 @@
 ## Test Driven Development
 TDD alapok, TDD kata (stack implementálás)
 
+## Testing and TDD
+* testing, advantages
+* exercises:
+  * production code first -> possible mistakes
+  * test driven development -> overcoming the mistakes
+* test doubles
+* transformation priority premise
+
+Link: https://docs.google.com/presentation/d/1I5Lg1TfTGLwSxN7ahgBOze3XLwhWxOSJ508TPCrPFYc/edit?usp=sharing
+
 ## Introduction to Kotlin
 A nyelv alapjainak bemutatása. A szintaxis és nyújtott eszközök megismerése.
 
