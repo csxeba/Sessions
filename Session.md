@@ -15,21 +15,8 @@ Mi ez az egész? Neurális könyvtárak és játékok interfészelése. Pár egy
 Függvények, osztályok. NumPy N-dimenziós tömb. Ha marad idő: AsyncIO, natív korutinok.
 
 # Misi témák
-## Kotlin
-### Introduction to Kotlin
-A nyelv alapjainak bemutatása. A szintaxis és nyújtott eszközök megismerése.
-## Clean code
-### Part 1
-naming, functions, comments, formatting, objects vs data structures
 ### Part 2
 classes, solid principles, architecture, high level design
-### TDD
-testing, test driven development
-## Continuous Integration
-### Docker, CircleCI
-Egybevont előadás két kapcsolódó témáról végfelhasználói szempontból.
-* Mi az és mire jók a Docker container-ek? Hogyan kezdek neki?
-* Mi az a Continuous Integration? Mit nyújt ebből a szempontból CircleCI?
 
 # Márk témák
 ## C#
