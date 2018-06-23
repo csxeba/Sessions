@@ -15,6 +15,7 @@ Mi ez az egész? Neurális könyvtárak és játékok interfészelése. Pár egy
 Függvények, osztályok. NumPy N-dimenziós tömb. Ha marad idő: AsyncIO, natív korutinok.
 
 # Misi témák
+## Clean code
 ### Part 2
 classes, solid principles, architecture, high level design
 
