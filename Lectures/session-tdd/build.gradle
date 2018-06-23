@@ -1,0 +1,36 @@
+group 'org.vindkaldr.session'
+version = '0.1-SNAPSHOT'
+
+buildscript {
+    ext.kotlinVersion = '1.2.50'
+    ext.junitVersion = '4.12'
+    ext.hamkrestVersion = '1.4.2.2'
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
+    }
+}
+
+apply plugin: 'kotlin'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
+    testRuntimeClasspath "org.jetbrains.kotlin:kotlin-reflect:$kotlinVersion"
+    testCompile "junit:junit:$junitVersion"
+    testCompile "com.natpryce:hamkrest:$hamkrestVersion"
+}
+
+test {
+    testLogging {
+        events 'skipped', 'failed'
+        exceptionFormat 'full'
+    }
+}
